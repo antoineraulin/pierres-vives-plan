@@ -1,0 +1,722 @@
+{
+	"mapwidth":"1000",
+	"mapheight":"1000",
+	"groups":[
+		{
+			"id": "salles",
+			"title": "Salles",
+			"color": "#8db3dc"
+		  },{
+			"id": "administration",
+			"title": "Administration",
+			"color": "#ffb985"
+		  },{
+			"id": "autres",
+			"title": "Autres",
+			"color": "#a5c882"
+		  }
+		  
+	],
+	"levels":[
+		{
+			"id":"RDC",
+			"title":"RDC",
+			"map":"maps/RDC.svg",
+			"locations":[
+				{
+					"id": "s_0",
+					"title": "Becquerel",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.03",
+					"y": "0.21",
+					"category":"salles"
+				},{
+					"id": "s_1",
+					"title": "Bool",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.065",
+					"y": "0.21",
+					"category":"salles"
+				},{
+					"id": "s_2",
+					"title": "Darwin",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.1",
+					"y": "0.21",
+					"category":"salles"
+                },
+                {
+					"id": "s_4",
+					"title": "Fleming",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.17",
+					"y": "0.21",
+					"category":"salles"
+				},
+                {
+					"id": "s_6",
+					"title": "Harvey",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.24",
+					"y": "0.21",
+					"category":"salles"
+				},
+                {
+					"id": "s_7",
+					"title": "Ampère",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.03",
+					"y": "0.27",
+					"category":"salles"
+				},
+                {
+					"id": "s_8",
+					"title": "Cuvier",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.075",
+					"y": "0.27",
+					"category":"salles"
+				},
+                {
+					"id": "s_11",
+					"title": "Einstein",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.18",
+					"y": "0.27",
+					"category":"salles"
+				},
+                {
+					"id": "s_13",
+					"title": "Gay-Lussac",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.24",
+					"y": "0.27",
+					"category":"salles"
+				},
+                {
+					"id": "s_14",
+					"title": "Jacquard",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.33",
+					"y": "0.265",
+					"category":"salles"
+				},
+                {
+					"id": "s_15",
+					"title": "Laplace",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.395",
+					"y": "0.265",
+					"category":"salles"
+				},
+                {
+					"id": "s_16",
+					"title": "Isabey",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.315",
+					"y": "0.32",
+					"category":"salles"
+				},
+                {
+					"id": "s_17",
+					"title": "Kepler",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.36",
+					"y": "0.32",
+					"category":"salles"
+				},
+                {
+					"id": "s_18",
+					"title": "Newton",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.465",
+					"y": "0.263",
+					"category":"salles"
+				},
+                {
+					"id": "s_20",
+					"title": "Planck",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.555",
+					"y": "0.24",
+					"category":"salles"
+				},
+                {
+					"id": "s_24",
+					"title": "Marconi (Studio)",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.465",
+					"y": "0.31",
+					"category":"salles"
+				},
+                {
+					"id": "s_25",
+					"title": "Marconi",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.50",
+					"y": "0.31",
+					"category":"salles"
+				},
+                {
+					"id": "s_26",
+					"title": "Ohm",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.56",
+					"y": "0.295",
+					"category":"salles"
+				},
+                {
+					"id": "s_27",
+					"title": "Quesnay",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6298",
+					"y": "0.2953",
+					"category":"salles"
+				},
+                {
+					"id": "s_28",
+					"title": "Rimbaud",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6498",
+					"y": "0.332",
+					"category":"salles"
+				},
+                {
+					"id": "s_29",
+					"title": "Sand",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6578",
+					"y": "0.35",
+					"category":"salles"
+				},
+                {
+					"id": "s_30",
+					"title": "Tchékov",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6646",
+					"y": "0.3690",
+					"category":"salles"
+				},
+                {
+					"id": "s_31",
+					"title": "Voltaire",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6744",
+					"y": "0.3877",
+					"category":"salles"
+				},
+                {
+					"id": "s_32",
+					"title": "CDI",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.6045",
+					"y": "0.4683",
+					"category":"autres"
+				},
+                {
+					"id": "s_45",
+					"title": "Eiffel",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.4853",
+					"y": "0.4416",
+					"category":"salles"
+				},
+                {
+					"id": "s_46",
+					"title": "Flaubert",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.5428",
+					"y": "0.4543",
+					"category":"salles"
+				},
+                {
+					"id": "s_47",
+					"title": "Daumier",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.3866",
+					"y": "0.4172",
+					"category":"salles"
+				},
+                {
+					"id": "s_48",
+					"title": "Colette",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.296",
+					"y": "0.4108",
+					"category":"salles"
+				},
+                {
+					"id": "s_33",
+					"title": "Infirmerie",
+					"description": "",
+					"thumbnail":"assets/images/hospital.svg",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.7096",
+					"y": "0.4755",
+					"category":"autres"
+				},
+                {
+					"id": "s_34",
+					"title": "Vie Scolaire",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.7087",
+					"y": "0.4982",
+					"category":"administration"
+				},
+                {
+					"id": "s_50",
+					"title": "Bach",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.176",
+					"y": "0.4048",
+					"category":"salles"
+				},
+                {
+					"id": "s_53",
+					"title": "Amundsen",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.2591",
+					"y": "0.4795",
+					"category":"salles"
+				},
+                {
+					"id": "s_51",
+					"title": "Pasteur",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.0273",
+					"y": "0.5085",
+					"category":"salles"
+				},
+                {
+					"id": "s_52",
+					"title": "De Gennes",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.0287",
+					"y": "0.6",
+					"category":"salles"
+				},
+                {
+					"id": "s_40",
+					"title": "Proviseur",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.7744",
+					"y": "0.6589",
+					"category":"administration"
+				},
+                {
+					"id": "s_41",
+					"title": "Secrétariat élèves",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.7979",
+					"y": "0.6606",
+					"category":"administration"
+				},
+                {
+					"id": "s_42",
+					"title": "Proviseur adjoint",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.816",
+					"y": "0.6606",
+					"category":"administration"
+				},
+                {
+					"id": "s_43",
+					"title": "Secrétariat général",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.8396",
+					"y": "0.6606",
+					"category":"administration"
+				},
+                {
+					"id": "s_44",
+					"title": "Intendant",
+					"description": "",
+					"pin": "hidden",
+					"fill": "#666",
+					"x": "0.8664",
+					"y": "0.666",
+					"category":"administration"
+				}
+			]
+		},{
+			"id":"Etage",
+			"title":"Etage",
+			"map":"maps/etage.svg",
+			"locations":[
+				{
+					"id": "s_54",
+					"title": "Avicenne",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.3711",
+					"y": "0.3180",
+					"category":"salles"
+				},{
+					"id": "s_55",
+					"title": "Budé",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4226",
+					"y": "0.3177",
+					"category":"salles"
+				},{
+					"id": "s_56",
+					"title": "Copernic",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4769",
+					"y": "0.3177",
+					"category":"salles"
+				},{
+					"id": "s_57",
+					"title": "Dante",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.5324",
+					"y": "0.3184",
+					"category":"salles"
+				},{
+					"id": "s_58",
+					"title": "Erasme",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6116",
+					"y": "0.32",
+					"category":"salles"
+				},{
+					"id": "s_59",
+					"title": "Fermat",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6593",
+					"y": "0.3136",
+					"category":"salles"
+				},{
+					"id": "s_60",
+					"title": "Galilée",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.7143",
+					"y": "0.3032",
+					"category":"salles"
+				},{
+					"id": "s_61",
+					"title": "Hugo",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.7686",
+					"y": "0.2946",
+					"category":"salles"
+				},{
+					"id": "s_62",
+					"title": "Ingres",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8411",
+					"y": "0.2963",
+					"category":"salles"
+				},{
+					"id": "s_64",
+					"title": "Joinville",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8652",
+					"y": "0.3549",
+					"category":"salles"
+				},{
+					"id": "s_65",
+					"title": "Leiboiz",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8746",
+					"y": "0.378",
+					"category":"salles"
+				},{
+					"id": "s_66",
+					"title": "Nerval",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8841",
+					"y": "0.4030",
+					"category":"salles"
+				},{
+					"id": "s_68",
+					"title": "Kafka",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8011",
+					"y": "0.3907",
+					"category":"salles"
+				},{
+					"id": "s_69",
+					"title": "CPE",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8241",
+					"y": "0.4330",
+					"category":"administration"
+				},{
+					"id": "s_70",
+					"title": "Gutemberg",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.8058",
+					"y": "0.5077",
+					"category":"salles"
+				},{
+					"id": "s_71",
+					"title": "Salle des professeurs",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.9351",
+					"y": "0.6094",
+					"category":"administration"
+				},{
+					"id": "s_72",
+					"title": "Nabokov",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.7195",
+					"y": "0.4941",
+					"category":"salles"
+				},{
+					"id": "s_73",
+					"title": "Lamartine",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6723",
+					"y": "0.4834",
+					"category":"salles"
+				},{
+					"id": "s_74",
+					"title": "Jussieu",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6256",
+					"y": "0.47",
+					"category":"salles"
+				},{
+					"id": "s_76",
+					"title": "Baudelaire",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.3697",
+					"y": "0.4446",
+					"category":"salles"
+				},{
+					"id": "s_77",
+					"title": "Dumas",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4227",
+					"y": "0.4493",
+					"category":"salles"
+				},{
+					"id": "s_78",
+					"title": "Froissart",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4790",
+					"y": "0.4536",
+					"category":"salles"
+				},{
+					"id": "s_79",
+					"title": "Hérodote",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.5327",
+					"y": "0.4563",
+					"category":"salles"
+				},{
+					"id": "s_80",
+					"title": "Appolinaire",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.3626",
+					"y": "0.5367",
+					"category":"salles"
+				},{
+					"id": "s_81",
+					"title": "Chénier",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4173",
+					"y": "0.54",
+					"category":"salles"
+				},{
+					"id": "s_82",
+					"title": "Euripide",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.4729",
+					"y": "0.544",
+					"category":"salles"
+				},{
+					"id": "s_83",
+					"title": "Giraudoux",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.5249",
+					"y": "0.544",
+					"category":"salles"
+				},{
+					"id": "s_84",
+					"title": "Ibsen",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6028",
+					"y": "0.5638",
+					"category":"salles"
+				},{
+					"id": "s_85",
+					"title": "Kipling",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.6544",
+					"y": "0.5788",
+					"category":"salles"
+				},{
+					"id": "s_86",
+					"title": "Molière",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.7054",
+					"y": "0.5891",
+					"category":"salles"
+				},{
+					"id": "s_87",
+					"title": "Stendhal",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.05",
+					"y": "0.3379",
+					"category":"salles"
+				},{
+					"id": "s_88",
+					"title": "Pascal",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.045",
+					"y": "0.4569",
+					"category":"salles"
+				},{
+					"id": "s_89",
+					"title": "Cervantes",
+					"description": "",
+                    "pin": "hidden",
+                    "fill": "#666",
+					"x": "0.0414",
+					"y": "0.5788",
+					"category":"salles"
+				}
+			]
+		}
+	]
+}

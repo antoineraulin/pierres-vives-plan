@@ -1,0 +1,55 @@
+{
+	"mapwidth":"800",
+	"mapheight":"800",
+	"topLat": "52.26544472261007",
+	"leftLng": "-6.071361539508934",
+	"bottomLat": "40.02615453176817",
+	"rightLng": "11.701991346862258",
+	"categories":[],
+	"levels":[
+		{
+			"id":"france",
+			"title":"France",
+			"map":"maps/france.svg",
+			"locations":[
+				{
+					"id": "grenoble",
+					"title": "Grenoble",
+					"description": "<p>City positioned using lat/lng coordinates.</p>",
+					"pin": "circular pin-md pin-label",
+					"label": "G",
+					"lat": "45.189160",
+					"lng": "5.724977"
+				},
+				{
+					"id": "fr-75",
+					"title": "Department 75",
+					"description": "<p>Interactive French department.</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d"
+				},
+				{
+					"id": "fr-32",
+					"title": "Department 32",
+					"description": "<p>Interactive French department.</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d"
+				},
+				{
+					"id": "fr-51",
+					"title": "Department 51",
+					"description": "<p>Interactive French department.</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d"
+				},
+				{
+					"id": "fr-01",
+					"title": "Department 1",
+					"description": "<p>Interactive French department.</p>",
+					"pin": "hidden",
+					"fill": "#4d5e6d"
+				}
+			]
+		}
+	]
+}

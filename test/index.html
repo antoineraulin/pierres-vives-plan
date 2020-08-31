@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Plan</title>
+
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<!-- Stylesheets -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+	</head>
+	<body>
+		<div id="wrap">
+
+			<!-- Site content -->
+			<div id="content">
+				
+				<section id="map-section" class="inner over">
+					<div class="editor-window">
+						<div class="editor-body">
+							<code>
+								{<br>
+								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
+								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
+								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
+								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;...<br>
+								}
+							</code>
+						</div>
+					</div>
+
+					<div class="map-container">
+						<div id="mapplic" class="mapplic-dark"></div> <!-- Map -->
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/hammer.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="mapplic/mapplic.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mapplic').mapplic({
+					source: 'france.json',
+					height: 540,
+					sidebar: true,
+					fillcolor: "#cccccc",
+					deeplinking: true,
+					autopopulate: true,
+					fullscreen: false,
+					maxscale: 3,
+					zoommargin: 0
+				});
+			});
+		</script>
+	</body>
+</html>
